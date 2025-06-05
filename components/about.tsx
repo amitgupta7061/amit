@@ -32,7 +32,7 @@ export default function About() {
             <div className="relative aspect-square max-w-md mx-auto overflow-hidden rounded-lg">
               <div className="w-full h-full bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 flex items-center justify-center">
                 <div className="text-6xl font-bold text-primary/10">
-                  <Image src={'./photo.jpg'} height={100} width={100} className='h-full w-full' alt='image'/>
+                  <Image src={'./photo.jpeg'} height={100} width={100} className='h-full w-full' alt='image'/>
                 </div>
               </div>
               <div className="absolute inset-0 border border-primary/10 rounded-lg"></div>
