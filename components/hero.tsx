@@ -91,9 +91,13 @@ export default function Hero() {
             <Button onClick={scrollToContact} className="bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-500 hover:to-emerald-600">
               Contact Me
             </Button>
-            <a href="https://res.cloudinary.com/dclklp0mb/raw/upload/v1743148501/rhvem77ljxvtu42g0md7.pdf" target="_blank" rel="noopener noreferrer" >
-              <Button variant="outline" className='flex gap-1'>Resume <CloudDownload/></Button>
-            </a>
+            <Button variant="outline" className='flex gap-1' onClick={() => {
+              window.open(
+                "https://res.cloudinary.com/dclklp0mb/raw/upload/v1743148501/rhvem77ljxvtu42g0md7.pdf",
+                "_blank",
+                "noopener,noreferrer"
+              );
+            }}>Resume <CloudDownload/></Button>
           </div>
         </motion.div>
       </div>
